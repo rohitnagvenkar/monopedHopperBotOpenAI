@@ -1,0 +1,9 @@
+
+1. # spawn the environment
+	roslaunch single_legged_robot  main.launch
+
+2. # spawn the robot inside the environment
+	roslaunch single_legged_robot  spawn_monoped.launch
+
+3. # activate the pid controller
+	roslaunch single_legged_robot  monoped_control.launch
